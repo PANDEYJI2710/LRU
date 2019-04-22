@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 //LRU implementation in C language.
 int findLRU(int time[], int n){
 	int i, minimum = time[0], pos = 0;
@@ -13,6 +14,7 @@ int findLRU(int time[], int n){
 	return pos;
 }
  
+ //main function
 int main()
 {
 //taking number of frames 
